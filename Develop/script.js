@@ -8,6 +8,47 @@ $('#currentDay').text(currentDay);}
 time();
 setInterval(time,1000);
 
+let timeSlot = [
+    {
+        timeOfDay: '9 a.m.',
+        whatToDo: ' '
+    },
+    {
+        timeOfDay: '10 a.m.',
+        whatToDo: ' '
+    },
+    {
+        timeOfDay: '11 a.m.',
+        whatToDo: ' '
+    },
+    {
+        timeOfDay: '12 p.m.',
+        whatToDo: ' '
+    },
+    {
+        timeOfDay: '1 p.m.',
+        whatToDo: ' '
+    },
+    {
+        timeOfDay: '2 p.m.',
+        whatToDo: ' '
+    },
+    {
+        timeOfDay: '3 p.m.',
+        whatToDo: ' '
+    },
+    {
+        timeOfDay: '4 p.m.',
+        whatToDo: ' '
+    },
+    {
+        timeOfDay: '5 p.m.',
+        whatToDo: ' '
+    },
+];
+  
+localStorage.setItem('toDo',timeSlot);
+       
 
 
 $(function () {
