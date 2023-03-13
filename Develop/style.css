@@ -25,23 +25,23 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: 		#000080;
+  color: #ffffff;
+  border-top: 1px dashed #ffffff;
 }
-
+/* Todo I need to figure out what color is controlling because it does not seem to have a effect on the font color  */
 .past {
-  background-color: #d3d3d3;
-  color: white;
+  background-color: #87afd7;
+  color: white; 
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #00af00;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: 	#ffffaf;
   color: white;
 }
 
@@ -49,8 +49,9 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color:#000080;
   color: white;
+ 
 }
 
 .saveBtn i:hover {
