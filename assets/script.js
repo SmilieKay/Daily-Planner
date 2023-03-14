@@ -8,7 +8,7 @@ var saveBtn = $('.saveBtn');
 function time() {
   var currentDay = dayjs().format('MMM DD, YYYY HH:mm:ss ');
   $('#currentDay').text(currentDay);
-  setInterval(time, 1000);
+  
 }
 
 // currentTime uses dayjs to get the current hour then targets the elements in class time-block and loops through each one using .each and the .data stores the hour value for each block. The data method uses the value of the HTML 'hour" elements.
@@ -48,5 +48,5 @@ $(function() {
   
   //calls the function currentTime and time to run
   currentTime();
-  time();
+  setInterval(time, 1000);
 });
